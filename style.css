@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    text-align: center;
+}
+
+
+.title{
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+.intro-text{
+    font-weight: 100;
+    font-style: italic;
+    color: #c92424;
+    font-size: 2rem;
+}

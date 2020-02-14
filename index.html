@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
   </head>
   <body>
     <div>
-      <nav class="navbar navbar-expand-sm bg-danger navbar-dark justify-content-end">
+      <nav
+        class="navbar navbar-expand-sm bg-danger navbar-dark justify-content-end"
+      >
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -26,22 +29,76 @@
         </ul>
       </nav>
 
-
       <!-- Welcome section -->
       <div id="welcome-section" class="bg-dark">
-          <h1 class="title">Hey I'm a Mimic</h1>
-          <h4 class="intro-text">a web developer</h4>
+        <h1 class="title">Hey I am a Mimic</h1>
+        <h4 class="intro-text">a web developer</h4>
       </div>
 
-
       <!-- Project Section -->
-      <div id="projects">
-          <div class="project-tile"></div>
-          <div class="project-tile"></div>
-          <div class="project-tile"></div>
-          <div class="project-tile"></div>
-          <div class="project-tile"></div>
-          <div class="project-tile"></div>
+      <section id="projects-section">
+
+         <div class="text-center p-4">
+              <h2 class="section-heading" style="text-decoration: underline; color: #fff">Some of my projects</h2>
+          </div>
+      <div id="projects" class="container">
+         
+        <div class="row">
+          <div class="col-md-4 col-sm-12 img-tile">
+            <img src="images/calc.png" alt="" class="img-fluid" />
+            <div class="caption">JavaScript Calculator</div>
+          </div>
+          <div class="col-md-4" id="img-tile">
+            <img src="images/map.jpg" alt="" class="img-fluid" />
+            <div class="caption">Map Data Across the Globe</div>
+          </div>
+          <div class="col-md-4 img-tile">
+            <img
+              src="images/random-quote-machine.png"
+              alt=""
+              class="img-fluid"
+            />
+            <div class="caption">Random Quote Machine</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 img-tile">
+            <img src="images/tic-tac-toe.png" alt="" class="img-fluid" />
+            <div class="caption">Tic Tac Toe Game</div>
+          </div>
+          <div class="col-md-4 img-tile">
+            <img src="images/tribute.jpg" alt="" class="img-fluid" />
+            <div class="caption">Tribute Page</div>
+          </div>
+          <div class="col-md-4 img-tile">
+            <img src="images/wiki.png" alt="" class="img-fluid" />
+            <div class="caption">Wikipedia Viewer</div>
+          </div>
+        </div>
+
+          <div class="text-center p-4">
+
+              <button type="button" class="btn btn-danger btn-md text-center" ><a href="https://codepen.io/FreeCodeCamp/">Show all > </a></button>
+          </div>
+        
+        </section>
+
+        <!-- contacts section -->
+        <section class="contact-section bg-dark p-5">
+          <div class="text-center">
+            <h1>Let's work together...</h1>
+            <p>How do you take your coffee?</p>
+          </div>
+
+          <div class="text-center" id="contact-details">
+           <span><a href=""><i class="fab fa-facebook-square"></i> Facebook</a></span> 
+            <span><a href=""><i class="fab fa-github"></i> Github</a></span>
+            <span><a href=""><i class="fab fa-twitter"></i> Twitter</a></span>
+           <span> <a href=""><i class="fas fa-at"></i> Send a mail</a> </span>
+            <span><a href=""><i class="fas fa-mobile"></i> Call me</a></span>
+          </div>
+        </section>
       </div>
     </div>
 
